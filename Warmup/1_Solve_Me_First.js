@@ -33,3 +33,4 @@ function main() {
     var res = solveMeFirst(a, b);
     console.log(res);
 }
+
