@@ -46,13 +46,9 @@ function plusMinus(arr) {
         }
     }
     
-    let positiveProportion = positiveCount/arr.length;
-    let negatigeProportion = negativeCount/arr.length;
-    let zeroProportion = zeroCount/arr.length;
-    
-    console.log(positiveProportion.toFixed(6));
-    console.log(negatigeProportion.toFixed(6));
-    console.log(zeroProportion.toFixed(6));
+    console.log((positiveCount/arr.length).toFixed(6));
+    console.log((negativeCount/arr.length).toFixed(6));
+    console.log((zeroCount/arr.length).toFixed(6));
 
 }
 
