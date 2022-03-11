@@ -52,10 +52,10 @@ function dayOfProgrammer(year) {
     }
     else{
         if((year%4===0 && year%100!==0 ||  year%400===0)){
-            result = "12.09.";    
+            result = "12.09."; // 256-244    
         }
         else{
-            result = "13.09.";
+            result = "13.09."; // 256-243
         }
         
     }
