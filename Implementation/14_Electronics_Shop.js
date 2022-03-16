@@ -1,3 +1,5 @@
+//https://www.hackerrank.com/challenges/electronics-shop/problem?isFullScreen=true
+
 "use strict";
 
 const fs = require("fs");
