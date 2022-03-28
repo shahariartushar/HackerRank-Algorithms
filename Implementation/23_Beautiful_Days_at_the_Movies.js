@@ -38,7 +38,7 @@ function beautifulDays(i, j, k) {
   // Write your code here
   let result = 0;
   for (let x = i; x <= j; x++) {
-    const reverse = (x) => parseInt(String(x).split("").reverse().join(""), 10); // reverse methid
+    const reverse = (x) => parseInt(String(x).split("").reverse().join(""), 10); // reverse method
     const diff = Math.abs(x - reverse(x)); // difference between number and reverse number
 
     if (diff % k == 0) {
